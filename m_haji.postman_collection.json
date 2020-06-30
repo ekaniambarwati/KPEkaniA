@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "01ee6816-2326-4c42-b876-6eaf582f6fe7",
+		"name": "m_haji",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8181/m_haji",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "HajID",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "namalengkap",
+							"value": "Ekani",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/m_haji",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_haji"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_haji",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8181/m_haji",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_haji"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
